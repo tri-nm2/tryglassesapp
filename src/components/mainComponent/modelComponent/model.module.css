@@ -1,0 +1,53 @@
+.model {
+  width: 250px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.model img {
+  width: 100%;
+  display: block;
+}
+
+.model .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.model .overlay img {
+  margin-top: 66px;
+  margin-left: 56px;
+  width: 140px;
+}
+
+.model .overlay .detail {
+  text-align: left;
+  padding: 5px 0px 5px 10px;
+  margin-top: 85px;
+  background-color: orange;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.model .overlay .detail h1 {
+  color: blue;
+  font-size: 20px;
+  padding: 0;
+  margin: 0px 0px 5px 0px;
+}
+
+.model .overlay .detail p {
+  color: white;
+  padding: 0;
+  margin-top: 0;
+}
+
+.model .overlay.show {
+  display: block;
+}
